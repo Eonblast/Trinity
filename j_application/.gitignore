@@ -1,0 +1,8 @@
+*.html
+*.dump
+*.logs
+*.log
+erlang.log.*
+ct_run*
+log_file_*
+variables*

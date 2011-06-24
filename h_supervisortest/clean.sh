@@ -1,0 +1,11 @@
+rm -rfv ct_run*
+rm -rfv variables*
+rm -fv *.html
+rm -fv *.dump
+rm -fv .DS*
+rm -fv *.beam
+rm -fv *.log
+rm -fv log_file_*
+rm -fv erlang.log.*
+rm -fv test/*.beam
+rm -fv test/.DS*

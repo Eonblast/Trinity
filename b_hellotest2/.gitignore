@@ -1,0 +1,5 @@
+variables*
+ct_run*
+*.html
+*.dump
+*.logs
