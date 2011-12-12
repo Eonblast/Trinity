@@ -1,15 +1,16 @@
 %%%-------------------------------------------------------------------
-%%% File    : eonbeam/dev/3/a_hellotest/test/hello_SUITE.erl
-%%% Description : Most simple test suite to demonstrate Common Test
+%%% File    : erlang-arcana/a_hellotest/test/hello_SUITE.erl
+%%% Descr   : Most simple test suite to demonstrate Common Test
 %%% Author  : H. Diedrich
 %%% Source  : Erlang docs 'small suite sample'
 %%%           www.erlang.org/doc/apps/common_test/example_chapter.html
 %%% Adapted : 06/13/2011 hd
+%%% Enhanced: 12/12/2011 hd
 %%% Require : ct_run (sometimes not in path as it seems)
 %%%-------------------------------------------------------------------
 %%%
-%%% Run: eonbeam/dev/3/a_hellotest/test.sh
-%%% Or : ct_run -dir test (from eonbeam/dev/3/a_hellotest)
+%%% Run: erlang-arcana/a_hellotest/test.sh
+%%% Or : ct_run -dir test (from erlang-arcana/a_hellotest)
 %%%
 %%%-------------------------------------------------------------------
 
