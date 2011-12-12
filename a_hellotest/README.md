@@ -1,6 +1,5 @@
 Erlang Common Test: Minimal Test
 ================================
-
 *a_hellotest*
 
 Common Tests come in 'Suites', which are groups of tests.
@@ -31,9 +30,9 @@ It can mix group definitions into the return list, but we'll ignore that for now
 
 The function my_test_case() must take a configuration parameter. We ignore that for now.
 
-The function must basically return ok or crash. 
+Any test function must basically return ok or crash. 
 
-It can also return an explanation why it prefers to skip the current run {skip, Reason} or some more advanced stuff. But returning ok or crashing is really the essence of it.
+It can also return an explanation why it prefers to skip the current run {skip, Reason} or some more advanced stuff. But returning ok or crashing is really the essence of it. **Specifically, if something goes wrong, you must never only print and error and return. You must crash!**
 
 This is what makes Common Test a typical Erlang thing: in effect, every match using '=' can be a test. And it will crash if the match fails. Without the Common Test framework, this is still good practice when trying things in Erlang. It is the Erlang way of writing assertions.
 

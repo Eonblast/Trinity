@@ -1,15 +1,16 @@
 %%%-------------------------------------------------------------------
-%%% File     : eonbeam/dev/3/b_hellotest2/test/hello_SUITE.erl
-%%% Descr    : complete skeleton of a Common Test test suite 
+%%% File     : erlang-arcana/b_hellotest2/test/hello_SUITE.erl
+%%% Descr    : Complete skeleton of a Common Test test suite 
 %%% Author   : H. Diedrich
 %%% Source   : Erlang docs 'small suite sample'
-%%%           www.erlang.org/doc/apps/common_test/example_chapter.html
+%%%            www.erlang.org/doc/apps/common_test/example_chapter.html
 %%% Adapted  : 06/13/2011 hd
+%%% Enhanced : 12/12/2011 hd
 %%% Requires : Erlang 14B (prior may not have ct_run)
 %%%-------------------------------------------------------------------
 %%%
-%%% Run: eonbeam/dev/3/b_hellotest2/test.sh
-%%% Or : ct_run -dir test (from eonbeam/dev/3/b_hellotest2)
+%%% Run: ./test.sh (from erlang-arcana/b_hellotest2)
+%%% or : ct_run -dir test (from erlang-arcana/b_hellotest2)
 %%%
 %%%-------------------------------------------------------------------
 
