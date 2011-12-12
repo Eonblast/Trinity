@@ -17,8 +17,6 @@ your own needs. It is usually commented in a way to help you expand on it.
 Start here: https://github.com/Eonblast/erlang-arcana/tree/master/a_hellotest
 or read more about what this is, below.
 
------------------------------------------------------------------------
-
 This is what awaits:
 
 Folders
@@ -43,13 +41,13 @@ They demonstrate the Erlang OTP concepts of:
 
 **Common Tests** are the usual way to create program tests in Erlang. 
 Common Tests are better suited to test entire systems than Java-style Unit Tests.
-Generally, a Common Test basically checks if a process crashes, or not. The means
+Generally, a Common Test simply checks if a process crashes, or not. The means
 to crash it, or not, are simple pattern matches by '='.
 
 **Gen Servers** are the OTP way of programming servers, using the OTP behaviour
 'supervisor' and herding the functional parts into a call back module that
 is essentially programmed in *sequential* tasks that are guaranteed to be
-run sequential within one gen server.
+run sequentially within one gen server.
 
 **Supervisors** are the central OTP building blocks of program robustness and
 the Erlang way of programming defensively: they *complement 'let it crash'* with
@@ -75,12 +73,13 @@ It gets tricky once you get past that first learning phase, into the 'standard
 library' area, in the case of Erlang, OTP, the 'Open Telecom Protocol', that
 really is not at all restricted to telecom. But its name gives a pointer to 
 one problem: it's full of outdated backward compatibilities and low consistency
-in naming, parameters etc. That's great for the hard core Erlang community 
-but not so great when learning Erlang for real. You need to break into the
-'Arcana', the ancient secret arts there. And you need to learn a lot of trivial
-stuff that just happens to be as it is. In my experience, it's no fun at all.
+in naming, parameters etc. That's great for the hard core Erlang community. Things
+don't change and stay the same. But it's not so great when learning Erlang for 
+real. You need to break into the **Arcana**, the ancient secret arts there.
+And you need to learn a lot of trivial stuff that just happens to be as it is.
+In my experience, it's no fun at all.
 
-It's worth it as the magic really is powerful. It's also *completely inevitable*
+It's worth it as the magic really is **powerful**. It's also completely inevitable
 to really get going with Erlang, to even *really* understand its power. And
 what you can do with it, and how you should go about it.
 
@@ -91,7 +90,8 @@ with a lot of love but also in circular dependency on knowledge you might not
 yet have when starting out.
 
 So as much as possible I am trying to bring some fun back to these harder parts.
-I'll be happy to hear your feedback on it. Please send your pull requests.
+I'll be happy to hear your feedback on it. Please send your pull requests with
+corrections, improvements, expansions. I'll be happy to include them.
 
 hd/11
 
