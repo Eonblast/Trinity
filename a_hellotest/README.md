@@ -260,7 +260,7 @@ To start over, clean the directory using
 The next tutorial step is in folder `../b_hellotest2`.
 Online at https://github.com/Eonblast/erlang-arcana/tree/master/b_hellotest2
 
-While this here test was a minimal suite, the next one is a full skeleton with stubs for all elements that a full fledged test suite would see.
+While this test was a minimal suite, the next one is a full skeleton with stubs for all elements that a full fledged test suite would see.
 
 
 -----------------------------------------------------------------------

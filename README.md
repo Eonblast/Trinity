@@ -7,7 +7,6 @@ Erlang Arcana Tutorial
 
 -----------------------------------------------------------------------
 
-
 This is a beginner's introduction to Erlang/OTP concepts. It is structured 
 in folders, with a README.MD in each folder that explains basics and has
 instructions of what to look at and what to try with the sample code.
@@ -15,41 +14,8 @@ instructions of what to look at and what to try with the sample code.
 The sample code is supposed to serve as starting point and templates for
 your own needs. It is usually commented in a way to help you expand on it.
 
------------------------------------------------------------------------
-
-The purpose of this repository is to start out or refresh your knowledge
-on the trivial but essential Erlang stuff beyond the language itself.
-It is not for learning the Erlang language, but how to use it right.
-
-As such it is more about the OTP part in Erlang/OTP. But it really must be
-seen as part of Erlang proper: the Erlang way of doing things like tests,
-servers, and in general system development and architecture.
-
-The Erlang language is rather small and fast to pick up despite the fact
-that it is 'so different' from the syntax of the Algol heirs: C, Java et al.
-And can I recommend Learn You Some Erlang again for the best online resource?
-
-It gets tricky once you get past that first learning phase, into the 'standard
-library' area, in the case of Erlang, OTP, the 'Open Telecom Protocol', that
-really is not at all restricted to telecom. But its name gives a pointer to 
-one problem: it's full of outdated backward compatibilities and low consistency
-in naming, parameters etc. That's great for the hard core Erlang community 
-but not so great when learning Erlang for real. You need to break into the
-'Arcana', the ancient secret arts there. And you need to learn a lot of trivial
-stuff that just happens to be as it is. In my experience, it's no fun at all.
-
-It's worth it as the magic really is powerful. It's also *completely inevitable*
-to really get going with Erlang, to even *really* understand its power. And
-what you can do with it, and how you should go about it.
-
-This repository tries to give a head start into these things. Basically, to
-get your head around them and get a better idea what it is all about. And,
-quite honestly, to enable you to *then* read the Erlang docs, which are made
-with a lot of love but also in circular dependency on knowledge you might not
-yet have when starting out.
-
-So as much as possible I am trying to bring some fun back to these harder parts.
-I'll be happy to hear your feedback on it. Please send your pull requests.
+Start here: https://github.com/Eonblast/erlang-arcana/tree/master/a_hellotest
+or read more about what this is, below.
 
 -----------------------------------------------------------------------
 
@@ -90,6 +56,42 @@ the Erlang way of programming defensively: they *complement 'let it crash'* with
 a very structured, hierarchical way to react to those crashes. Supervisors
 do not do anything, so they do not ever crash, except if they can't restart
 their worker childs at all.
+
+-----------------------------------------------------------------------
+
+The purpose of this repository is to start out or refresh your knowledge
+on the trivial but essential Erlang stuff beyond the language itself.
+It is not for learning the Erlang language, but how to use it right.
+
+As such it is more about the OTP part in Erlang/OTP. But it really must be
+seen as part of Erlang proper: the Erlang way of doing things like tests,
+servers, and in general system development and architecture.
+
+The Erlang language is rather small and fast to pick up despite the fact
+that it is 'so different' from the syntax of the Algol heirs: C, Java et al.
+And can I recommend Learn You Some Erlang again for the best online resource?
+
+It gets tricky once you get past that first learning phase, into the 'standard
+library' area, in the case of Erlang, OTP, the 'Open Telecom Protocol', that
+really is not at all restricted to telecom. But its name gives a pointer to 
+one problem: it's full of outdated backward compatibilities and low consistency
+in naming, parameters etc. That's great for the hard core Erlang community 
+but not so great when learning Erlang for real. You need to break into the
+'Arcana', the ancient secret arts there. And you need to learn a lot of trivial
+stuff that just happens to be as it is. In my experience, it's no fun at all.
+
+It's worth it as the magic really is powerful. It's also *completely inevitable*
+to really get going with Erlang, to even *really* understand its power. And
+what you can do with it, and how you should go about it.
+
+This repository tries to give a head start into these things. Basically, to
+get your head around them and get a better idea what it is all about. And,
+quite honestly, to enable you to *then* read the Erlang docs, which are made
+with a lot of love but also in circular dependency on knowledge you might not
+yet have when starting out.
+
+So as much as possible I am trying to bring some fun back to these harder parts.
+I'll be happy to hear your feedback on it. Please send your pull requests.
 
 hd/11
 
