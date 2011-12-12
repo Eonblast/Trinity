@@ -17,7 +17,7 @@ that a test suite can do:
 * **end_per_group(_GroupName, _Config)** - optional wind down
 * **init_per_testcase(_TestCase, Config)** - optional initialization run before a test case is started
 * **end_per_testcase(_TestCase, _Config)** - optional wind down
-* **groups()**
+* **groups()** - definition of test case groups
 
 But the functional part is still only:
       
@@ -255,19 +255,18 @@ before the actual test: suite, group, case.
 
 ## Running
 
-Not much happens when running this sample. 
-
-But go ahead, start it with
+Runs the same as *a_hellotest*:
 
       ./test.sh
 
-Or, as before, with
+Or, as before, use:
 
       ct_run -dir test
 
 ## Results
 
-Same as previous, a_hellotest, see there.
+See a discussion of the test results at *a_hellotest*,
+online at https://github.com/Eonblast/erlang-arcana/tree/master/a_hellotest
       
 ## Cleaning
 

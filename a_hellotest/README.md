@@ -2,14 +2,16 @@ Erlang Common Test: Minimal Test
 ================================
 *a_hellotest*
 
-Common Tests come in 'Suites', which are groups of tests.
+Common Tests come in 'suites', which are groups of tests.
 
 This sample is the simplest possible Common Test Suite, with only one test, which has only one test case, which does basically nothing.
 
 The test just returns "ok" to itself. It has no subject file that it runs etc.
 
 -----------------------------------------------------------------------
+
 Note: this doc is in markdown, with HTML mixed in to show what you should see. Either you really do the samples steps yourself as proposed. Then you won't need the HTML. Otherwise, this doc is probably best viewed online at https://github.com/Eonblast/erlang-arcana/tree/master/a_hellotest
+
 -----------------------------------------------------------------------
 
 
