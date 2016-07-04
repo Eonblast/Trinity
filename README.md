@@ -14,7 +14,7 @@ instructions of what to look at and what to try with the sample code.
 The sample code is supposed to serve as starting point and templates for
 your own needs. It is usually commented in a way to help you expand on it.
 
-Start here: https://github.com/Eonblast/erlang-arcana/tree/master/a_hellotest
+Start here: https://github.com/Eonblast/Trinity/tree/master/a_hellotest
 or read more about what this is, below.
 
 This is what awaits:
